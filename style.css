@@ -3,7 +3,7 @@
 }
 
 body {
-    background: lightblue;
+    background: #438528ff;
 }
 
 div {
@@ -15,7 +15,7 @@ div {
 }
 
 h1, h2 {
-    background: #ffff00;
+    background: #ffd400ff;
     text-align: center;
     padding: 1%;
     box-shadow: 2px 2px 5px #666666;
@@ -27,4 +27,5 @@ h1, h2 {
 img {
     float: right;
     padding: 1%;
+    max-width: 60%;
 }
