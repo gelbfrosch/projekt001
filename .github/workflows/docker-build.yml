@@ -1,0 +1,16 @@
+name: 🐳 Build Docker images
+
+on:
+  push:
+    branches:
+      - 'main'
+    tags:
+      - 'v*.*.*'
+
+
+jobs:
+  docker:
+    uses: honigpferd/docker-buildx-workflow/.github/workflows/docker-buildx.yml@v1
+    permissions:
+      contents: read
+      packages: write
